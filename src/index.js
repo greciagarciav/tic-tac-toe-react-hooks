@@ -60,7 +60,8 @@ function Board() {
     
 
     return(
-        <div>
+        <div className="container">
+        <div className="title">{'TIC TAC TOE'}</div>
           <div className="status">{status}</div>
           <div className="board-row">
             {renderSquare(0)}
